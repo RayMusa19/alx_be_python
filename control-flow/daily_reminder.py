@@ -9,6 +9,6 @@ match priority:
     case 'low': priority = 'low'
 
 if time_bound == 'yes':
-    print(task, 'is a', priority, 'priority task that requires immediate attention today!')
+    print('Reminder: ', task, 'is a', priority, 'priority task that requires immediate attention today!')
 else:
-    print(task, 'is a', priority, 'priority task. Consider completing it when you have free time.')
+    print('Note: ', task, 'is a', priority, 'priority task. Consider completing it when you have free time.')
