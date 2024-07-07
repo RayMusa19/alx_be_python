@@ -26,7 +26,7 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 if isinstance(temperature, (int, float)):
     FAHRENHEIT_TO_CELSIUS_FACTOR = float((temperature - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR)
-    CELSIUS_TO_FAHRENHEIT_FACTOR = float((temperature * FAHRENHEIT_TO_CELSIUS_FACTOR) + 32)
+    CELSIUS_TO_FAHRENHEIT_FACTOR = float((temperature * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32)
     
 else:
     FAHRENHEIT_TO_CELSIUS_FACTOR = 'Invalid temperature. Please enter a numeric value.'
