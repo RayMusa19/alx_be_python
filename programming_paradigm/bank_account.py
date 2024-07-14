@@ -19,4 +19,4 @@ class BankAccount:
 
     def display_balance(self):
         self.print_account_balance = round(float(self.account_balance), 2)
-        print(f"Current Balance: ${self.print_account_balance}")
+        print(f"Current Balance: ${self.print_account_balance}0")
