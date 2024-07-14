@@ -1,12 +1,12 @@
 class BankAccount:
-    
+
     def __init__(self, initial_balance = 0):
 
         self.account_balance = initial_balance
-    
+
     def deposit(self,amount):
         self.account_balance += amount
-        print(f"Deposited ${amount}. Balance is: ${self.account_balanc}")
+        print(f"Deposited: ${amount}")
 
 
     def withdraw(self,amount):
@@ -14,10 +14,11 @@ class BankAccount:
             self.account_balance -= amount
             return('True')
         else:
-            print('Insufficient funds')
+            print('Insufficient funds.')
             return('False')
-        
+
 
 
     def display_balance(self):
-        print('Current Balance:', self.account_balance)
+        print(f"Current Balance: ${self.account_balance}")
+~                                                                  
