@@ -13,6 +13,6 @@ def safe_divide(numerator, denominator):
         if isinstance(float(numerator, denominator), (float)):
             division = (float(numerator) / float(denominator))
         else:
-            division = print('Enter an integer')
+            division = print('Error: Please enter numeric values only.')
 
     return division
