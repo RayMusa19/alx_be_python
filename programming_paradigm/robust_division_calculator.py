@@ -5,7 +5,7 @@ def safe_divide(numerator, denominator):
         denominator1 = float(denominator)
 
         division = numerator1 / denominator1
-    return print('The result of the division is', division)
+    	return print('The result of the division is', division)
 
     except ZeroDivisionError:
         return('Error: Cannot divide by zero.')
