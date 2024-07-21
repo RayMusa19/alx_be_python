@@ -7,8 +7,9 @@ class Shape:
     def __str__(self):
         return f"{self.area}"
 
-class Rectangle:
+class Rectangle(Shape):
     def __init__(self, length, width):
+        super().__init__()
         self.length = length
         self.width = width
 
@@ -19,8 +20,9 @@ class Rectangle:
     def __str__(self):
         return f"{self.Area}"
     
-class Circle:
+class Circle(Shape):
     def __init__(self, radius):
+        super().__init__()
         self.radius = radius
 
     def area(self):
